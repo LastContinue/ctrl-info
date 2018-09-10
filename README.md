@@ -2,7 +2,7 @@
 Personal discoveries for Massdrop CTRL Keyboard
 
 ## Offical Docs
-* This is the discussion on Massdrop. Gets "how do I?" pretty quickly, but the original post has good information. [https://www.massdrop.com/talk/9382/how-to-configure-your-ctrl-keyboard]
+* This is the discussion on Massdrop. Gets "how do I?" pretty quickly, but the original post has good information. https://www.massdrop.com/talk/9382/how-to-configure-your-ctrl-keyboard
 * Program you need to upload bin into your board home [https://github.com/Massdrop/mdloader/releases/tag/0.0.1]
 * Graphical Configuratator for keymaps (Not bad at all, but somewhat limited outside of keymapping, at least for the time being) [https://www.massdrop.com/mechanical-keyboards/configurator]
 * Offically QMK docs (lots here about keyconfigs and overall "this is possible" features, but not much about LEDs for the particular board) [https://docs.qmk.fm/#/]
