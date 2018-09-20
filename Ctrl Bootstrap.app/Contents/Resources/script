@@ -1,0 +1,10 @@
+#/bin/sh
+mkdir ~/Desktop/CTRL
+curl -s https://github.com/Massdrop/mdloader/releases/download/0.0.1/applet-flash-samd51j18a.bin -o ~/Desktop/CTRL/applet-flash-samd51j18a.bin
+curl -s https://github.com/Massdrop/mdloader/releases/download/0.0.1/mdloader_mac -o ~/Desktop/CTRL/mdloader_mac
+curl -s https://gist.githubusercontent.com/LastContinue/65dc6e6dcd8181dc6c82ed351b7525ad/raw/1ae0c6fdcbb862aedb1e2cf0378835775046dc3e/ctrl-ldr.sh -o ~/Desktop/CTRL/ctrl-ldr.sh
+
+chmod u+x ~/Desktop/CTRL/ctrl-ldr.sh
+chmod u+x ~/Desktop/CTRL/mdloader_mac
+echo "Okay, we're done, you can close this window now!"
+echo "Files saved to "~/Desktop/CTRL
