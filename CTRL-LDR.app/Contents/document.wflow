@@ -51,7 +51,7 @@
 				<key>ActionParameters</key>
 				<dict>
 					<key>source</key>
-					<string>on run {input, parameters}		tell application "Finder"		set filename to POSIX path of input	end tell		tell application "Terminal"		activate		do script "cd ~/Desktop/CTRL" in window 1		do script "./ctrl-ldr.sh " &amp; filename in window 1	end tell		return inputend run</string>
+					<string>on run {input, parameters}		tell application "Finder"		set filename to POSIX path of input	end tell		tell application "Terminal"		activate		do script "cd ~/Desktop/CTRL &amp;&amp; ./ctrl-ldr.sh " &amp; filename	end tell		return inputend run</string>
 				</dict>
 				<key>BundleIdentifier</key>
 				<string>com.apple.Automator.RunScript</string>
@@ -105,7 +105,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>375.000000:316.000000</string>
+				<string>389.500000:316.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
