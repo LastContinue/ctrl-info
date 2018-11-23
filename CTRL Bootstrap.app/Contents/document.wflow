@@ -173,7 +173,7 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.000000:267.000000</string>
+				<string>728.500000:267.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -231,12 +231,9 @@
 					<key>COMMAND_STRING</key>
 					<string>#/bin/sh
 mkdir ~/Desktop/CTRL
-curl -sL https://github.com/Massdrop/mdloader/releases/download/0.0.1/applet-flash-samd51j18a.bin -o ~/Desktop/CTRL/applet-flash-samd51j18a.bin
-curl -sL https://github.com/Massdrop/mdloader/releases/download/0.0.1/mdloader_mac -o ~/Desktop/CTRL/mdloader_mac
-curl -sL https://gist.githubusercontent.com/LastContinue/65dc6e6dcd8181dc6c82ed351b7525ad/raw/1ae0c6fdcbb862aedb1e2cf0378835775046dc3e/ctrl-ldr.sh -o ~/Desktop/CTRL/ctrl-ldr.sh
+curl -sL https://raw.githubusercontent.com/LastContinue/ctrl-info/master/scripts/bash/ldr.sh -o ~/Desktop/CTRL/ctrl-ldr.sh
 
-chmod u+x ~/Desktop/CTRL/ctrl-ldr.sh
-chmod u+x ~/Desktop/CTRL/mdloader_mac</string>
+chmod u+x ~/Desktop/CTRL/ctrl-ldr.sh</string>
 					<key>CheckedForUserDefaultShell</key>
 					<true/>
 					<key>inputMethod</key>
@@ -351,7 +348,7 @@ chmod u+x ~/Desktop/CTRL/mdloader_mac</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.000000:450.000000</string>
+				<string>728.500000:450.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
 			</dict>
@@ -453,7 +450,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>382.000000:696.000000</string>
+				<string>728.500000:696.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -463,14 +460,14 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>9E222041-3C49-493B-97B8-D85D9E66C922</key>
+		<key>1531DCDB-A2BE-4539-A19E-DF0E5CD3F675</key>
 		<dict>
 			<key>from</key>
 			<string>14D5D9A2-3EA7-49F7-8F7C-661C67D72F3D - 14D5D9A2-3EA7-49F7-8F7C-661C67D72F3D</string>
 			<key>to</key>
 			<string>8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9 - 8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9</string>
 		</dict>
-		<key>E42CA0CE-130C-4A28-AC01-508BEBAA4A06</key>
+		<key>AB74DC25-E712-49A2-BFFB-C9B0EEBD0EE0</key>
 		<dict>
 			<key>from</key>
 			<string>8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9 - 8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9</string>

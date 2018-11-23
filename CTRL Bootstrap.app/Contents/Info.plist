@@ -34,11 +34,11 @@
 	<key>CFBundleIconFile</key>
 	<string>AutomatorApplet</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.apple.automator.CTRL Bootstrap Automator</string>
+	<string>com.apple.automator.CTRL Bootstrap</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>CTRL Bootstrap Automator</string>
+	<string>CTRL Bootstrap</string>
 	<key>CFBundlePackageType</key>
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
@@ -60,7 +60,7 @@
 	<key>DTPlatformVersion</key>
 	<string>GM</string>
 	<key>DTSDKBuild</key>
-	<string>17F2</string>
+	<string>17G2004</string>
 	<key>DTSDKName</key>
 	<string>macosx10.13internal</string>
 	<key>DTXcode</key>
