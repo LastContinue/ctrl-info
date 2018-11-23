@@ -1,4 +1,5 @@
 # ctrl-info
+
 Personal discoveries for Massdrop CTRL Keyboard
 
 See https://github.com/LastContinue/ctrl-info/wiki for more detailed information (including new home of Gists)
@@ -8,3 +9,5 @@ See https://github.com/LastContinue/ctrl-info/wiki for more detailed information
 Checkout my gists for a few shell and Powershell scripts I wrote to help load .bin files onto the keyboard
 
 https://gist.github.com/lastcontinue
+
+alt_led_map.png was not made by me, but I saved it here so I could find it easier. Was made by user `famguy07` on Massdrop. 
