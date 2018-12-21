@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>444.7</string>
+	<string>444.39</string>
 	<key>AMApplicationVersion</key>
-	<string>2.8</string>
+	<string>2.9</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -173,9 +173,9 @@
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>728.500000:267.000000</string>
+				<string>728.500000:266.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Ask for Confirmation.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -231,7 +231,7 @@
 					<key>COMMAND_STRING</key>
 					<string>#/bin/sh
 mkdir ~/Desktop/CTRL
-curl -sL https://raw.githubusercontent.com/LastContinue/ctrl-info/master/scripts/bash/ldr.sh -o ~/Desktop/CTRL/ctrl-ldr.sh
+curl -sL https://raw.githubusercontent.com/LastContinue/ctrl-info/v0.3/scripts/bash/ldr.sh -o ~/Desktop/CTRL/ctrl-ldr.sh
 
 chmod u+x ~/Desktop/CTRL/ctrl-ldr.sh</string>
 					<key>CheckedForUserDefaultShell</key>
@@ -348,9 +348,9 @@ chmod u+x ~/Desktop/CTRL/ctrl-ldr.sh</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>728.500000:450.000000</string>
+				<string>728.500000:448.000000</string>
 				<key>nibPath</key>
-				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/English.lproj/main.nib</string>
+				<string>/System/Library/Automator/Run Shell Script.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
 			<key>isViewVisible</key>
 			<true/>
@@ -450,7 +450,7 @@ end run</string>
 				<key>isViewVisible</key>
 				<true/>
 				<key>location</key>
-				<string>728.500000:696.000000</string>
+				<string>728.500000:693.000000</string>
 				<key>nibPath</key>
 				<string>/System/Library/Automator/Run AppleScript.action/Contents/Resources/Base.lproj/main.nib</string>
 			</dict>
@@ -460,19 +460,19 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>1531DCDB-A2BE-4539-A19E-DF0E5CD3F675</key>
-		<dict>
-			<key>from</key>
-			<string>14D5D9A2-3EA7-49F7-8F7C-661C67D72F3D - 14D5D9A2-3EA7-49F7-8F7C-661C67D72F3D</string>
-			<key>to</key>
-			<string>8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9 - 8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9</string>
-		</dict>
-		<key>AB74DC25-E712-49A2-BFFB-C9B0EEBD0EE0</key>
+		<key>16ACDEF4-6ADC-44B7-8111-C99A27EF8C8C</key>
 		<dict>
 			<key>from</key>
 			<string>8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9 - 8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9</string>
 			<key>to</key>
 			<string>5C33B5AB-D746-43F6-8094-F8B44D481797 - 5C33B5AB-D746-43F6-8094-F8B44D481797</string>
+		</dict>
+		<key>C726976B-717F-4E85-9AFD-1775A909119C</key>
+		<dict>
+			<key>from</key>
+			<string>14D5D9A2-3EA7-49F7-8F7C-661C67D72F3D - 14D5D9A2-3EA7-49F7-8F7C-661C67D72F3D</string>
+			<key>to</key>
+			<string>8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9 - 8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>
