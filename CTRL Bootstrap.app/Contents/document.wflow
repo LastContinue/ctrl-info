@@ -3,9 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>AMApplicationBuild</key>
-	<string>444.39</string>
+	<string>492</string>
 	<key>AMApplicationVersion</key>
-	<string>2.9</string>
+	<string>2.10</string>
 	<key>AMDocumentVersion</key>
 	<string>2</string>
 	<key>actions</key>
@@ -107,9 +107,9 @@
 					<key>0</key>
 					<dict>
 						<key>default value</key>
-						<string></string>
+						<string>Cancel</string>
 						<key>name</key>
-						<string>questionText</string>
+						<string>negativeTitle</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -159,9 +159,9 @@
 					<key>4</key>
 					<dict>
 						<key>default value</key>
-						<string>Cancel</string>
+						<string></string>
 						<key>name</key>
-						<string>negativeTitle</string>
+						<string>questionText</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -231,7 +231,7 @@
 					<key>COMMAND_STRING</key>
 					<string>#/bin/sh
 mkdir ~/Desktop/CTRL
-curl -sL https://raw.githubusercontent.com/LastContinue/ctrl-info/v0.3/scripts/bash/ldr.sh -o ~/Desktop/CTRL/ctrl-ldr.sh
+curl -sL https://raw.githubusercontent.com/LastContinue/ctrl-info/master/scripts/bash/ldr.sh -o ~/Desktop/CTRL/ctrl-ldr.sh
 
 chmod u+x ~/Desktop/CTRL/ctrl-ldr.sh</string>
 					<key>CheckedForUserDefaultShell</key>
@@ -295,9 +295,9 @@ chmod u+x ~/Desktop/CTRL/ctrl-ldr.sh</string>
 					<key>1</key>
 					<dict>
 						<key>default value</key>
-						<string></string>
+						<false/>
 						<key>name</key>
-						<string>source</string>
+						<string>CheckedForUserDefaultShell</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -308,9 +308,9 @@ chmod u+x ~/Desktop/CTRL/ctrl-ldr.sh</string>
 					<key>2</key>
 					<dict>
 						<key>default value</key>
-						<false/>
+						<string></string>
 						<key>name</key>
-						<string>CheckedForUserDefaultShell</string>
+						<string>source</string>
 						<key>required</key>
 						<string>0</string>
 						<key>type</key>
@@ -460,19 +460,19 @@ end run</string>
 	</array>
 	<key>connectors</key>
 	<dict>
-		<key>16ACDEF4-6ADC-44B7-8111-C99A27EF8C8C</key>
-		<dict>
-			<key>from</key>
-			<string>8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9 - 8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9</string>
-			<key>to</key>
-			<string>5C33B5AB-D746-43F6-8094-F8B44D481797 - 5C33B5AB-D746-43F6-8094-F8B44D481797</string>
-		</dict>
-		<key>C726976B-717F-4E85-9AFD-1775A909119C</key>
+		<key>3213F3CB-9CC1-41A5-A8F3-975252EBCDF4</key>
 		<dict>
 			<key>from</key>
 			<string>14D5D9A2-3EA7-49F7-8F7C-661C67D72F3D - 14D5D9A2-3EA7-49F7-8F7C-661C67D72F3D</string>
 			<key>to</key>
 			<string>8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9 - 8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9</string>
+		</dict>
+		<key>C4A1CEF4-7633-4052-9D32-40D83FBE6863</key>
+		<dict>
+			<key>from</key>
+			<string>8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9 - 8F5EA588-BE7C-4F31-B73A-CB7FF09A51D9</string>
+			<key>to</key>
+			<string>5C33B5AB-D746-43F6-8094-F8B44D481797 - 5C33B5AB-D746-43F6-8094-F8B44D481797</string>
 		</dict>
 	</dict>
 	<key>workflowMetaData</key>

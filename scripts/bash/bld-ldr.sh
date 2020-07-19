@@ -1,3 +1,5 @@
+#!/usr/bin/env sh
+
 ### Builds upon my other script, but this also builds the .bin based on the
 ### name of the configuration
 ### It assumes that you have you loading binaries just outside of the dir where
@@ -7,12 +9,12 @@
 ### ./ctrl-bld-ldr.sh default <- builds the default keymap
 ### ./ctrl-bld-ldr.sh mac <- builds the mac keymap
 ### ./ctrl-bld-ldr.sh lastcontinue <-builds a keymap named `lastcontinue`
-#/bin/sh
+
 set -euo pipefail
 DIR=qmk_firmware  #change this based on your needs, but this is `git clone`
                   #default name
 
-RELEASE=https://github.com/Massdrop/mdloader/releases/download/1.0.3
+RELEASE=https://github.com/Massdrop/mdloader/releases/download/1.0.4
 APPLET=applet-flash-samd51j18a.bin
 LOADER=mdloader_mac
 

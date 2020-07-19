@@ -1,13 +1,15 @@
-### This script makes the command for loading a .bin or .hex file onto the 
+#!/usr/bin/env sh
+
+### This script makes the command for loading a .bin or .hex file onto the
 ### board much shorter. (This scrip itself used to be much shorter,
 ### but updates to mdloader have helped slim it down)
-### Is now based on the 1.0.3 version of mdloader
+### Is now based on the 1.0.4 version of mdloader
 ### usage ->
 ### ./ctrl-ldr.sh massdrop_ctrl_foo_bar.bin
-#/bin/sh
+
 set -euo pipefail
 
-RELEASE=https://github.com/Massdrop/mdloader/releases/download/1.0.3
+RELEASE=https://github.com/Massdrop/mdloader/releases/download/1.0.4
 APPLET=applet-flash-samd51j18a.bin
 LOADER=mdloader_mac
 
