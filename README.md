@@ -1,17 +1,10 @@
-# STOP: ARE YOU TRYING TO FLASH A CTRL HIGH-PROFILE KEYBOARD AND RUNNING INTO THIS ERROR (DESPITE HITTING RESET AT THE RIGHT TIME, OR OLDER BOARDS WORKING JUST FINE, ETC)?
-`"Error: Could not find a valid device port!"`
-## Good news/Bad news. You're going to need to re-compile mdloader.
-See https://github.com/Massdrop/mdloader/pull/25 for background  
-Download code from https://github.com/pgillan145/mdloader if you don't want to mess with copy-pasting code
-### Now back to your regularly scheduled README
-
 # ctrl-info
 
 Personal discoveries for the Massdrop CTRL Keyboard
 
 See https://github.com/LastContinue/ctrl-info/wiki for more detailed information, including FAQs.
 
-https://github.com/LastContinue/ctrl-info/releases has links for drag-and-drop loaders for both Mac and Windows. These can be really useful if you're wanting to flash your board, but have little to no experience with, or desire to use, the command line. They also gather all of the files you need to flash the board so that if you do want to start flashing via the command line later, you'll have everything you need.
+https://github.com/LastContinue/ctrl-info/releases has links for drag-and-drop loaders for both Mac and Windows. I wrote these before [QMK Toolbox](https://qmk.fm/toolbox/) started supporting `mdloader`. These days I recommend using QMK Toolbox, but these still can be really useful if you're wanting to flash your board, but have little to no experience with, or desire to use, the command line. They also gather all of the files you need to flash the board so that if you do want to start flashing via the command line later, you'll have everything you need (however, I may stop updating relases of these at some point in the future, mostly because it's a bit of a pain, and most people who'd still want to use these over QMK Tollbox are going to be geeky enough to figure out how to get stuff from source to work)
 
 https://github.com/LastContinue/ctrl-info/tree/master/scripts has the source files for the drag-and-drop loaders, as well as few other things I've picked up or made that I feel are helpful when it comes to programming these boards (including `bld-ldr.sh`, which is what I used to build and flash my board)
 
