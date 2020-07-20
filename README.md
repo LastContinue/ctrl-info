@@ -14,5 +14,6 @@ alt_led_map.png was not made by me, but I saved it here so I could find it easie
 
 ### Note about "dated-ness"
 As you look through the wiki, etc, you'll probably notice that many of the files haven't been updated in "quite some time". There's a couple of reasons for this:
-1. When I got my key-by-key lighting keymap done, I was pretty happy with it "being done". I've pulled QMK down from time to time, since then but I haven't botherd to figure out what's going on with it. 
-1. My stuff works (I think... 90% sure). The files and advice here might seem out of date, but for non-Internet connected hardware, being on the latest version of the firmware isn't that big of a deal (unless you're having issues). **Think about it this way: Let's say you buy an IBM Model F or M. It's going to be a great keyboard, however, the firmware on that keyboard is over 30 years old. Does that make it any less great?** If in the future something stops working (probably due to OS updates more than anything else), then I'll gladly look back into it, but I'm pretty happy with things are currently😄
+1. When I got my key-by-key lighting keymap done, I was pretty happy with it "being done". I've pulled QMK down from time to time, since then but I haven't bothered to figure out what's going on with it. I may eventually try to figure it out in the future, and if I do, I'll go on a big updating spree.  
+1. My stuff works (I think... 90% sure). The files and advice here might seem out of date, but for non-Internet connected hardware, being on the latest version of the firmware isn't that big of a deal
+1. These days I don't really mess with these keyboards unless I'm having problems. I recently had an issue with my CTRL HiPro, so after I fixed that, I went on an updating spree.
